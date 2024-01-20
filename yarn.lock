@@ -7406,6 +7406,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@prisma/cli@npm:^2.20.1":
+  version: 2.20.1
+  resolution: "@prisma/cli@npm:2.20.1"
+  dependencies:
+    "@prisma/engines": 2.20.0-26.60ba6551f29b17d7d6ce479e5733c70d9c00860e
+  bin:
+    prisma: build/index.js
+    prisma2: build/index.js
+  checksum: 26ce44cbf4ec77a7fbda0311b7b37316618e1f4b2277f5d9bf7e2ddb5c69e5b65758242c6e14fb54250cadc64875f0d10a231ac9711e1bf9cbdbf4dfc1c6edf0
+  languageName: node
+  linkType: hard
+
 "@prisma/client@npm:^5.4.2":
   version: 5.4.2
   resolution: "@prisma/client@npm:5.4.2"
@@ -7457,6 +7469,13 @@ __metadata:
   version: 5.4.1-2.ac9d7041ed77bcc8a8dbd2ab6616b39013829574
   resolution: "@prisma/engines-version@npm:5.4.1-2.ac9d7041ed77bcc8a8dbd2ab6616b39013829574"
   checksum: 493f84e8856bf214c64177f879f7009740156492a3e1b42cd02e91eec273a5d290bfdde9ca32c361cd8a0616a33d903163582a51e44a79a6b6b318f72130517f
+  languageName: node
+  linkType: hard
+
+"@prisma/engines@npm:2.20.0-26.60ba6551f29b17d7d6ce479e5733c70d9c00860e":
+  version: 2.20.0-26.60ba6551f29b17d7d6ce479e5733c70d9c00860e
+  resolution: "@prisma/engines@npm:2.20.0-26.60ba6551f29b17d7d6ce479e5733c70d9c00860e"
+  checksum: 7011df664e9da69ffa80e7d52f2cccbe49b8bc42453eed2af256f9b81c68d02012c9ee80e5b43b36426974cc10f17ae4176a1c1f679bec5da08f7287607d2f6d
   languageName: node
   linkType: hard
 
@@ -14495,6 +14514,7 @@ __metadata:
     "@changesets/cli": ^2.26.1
     "@deploysentinel/playwright": ^0.3.3
     "@playwright/test": ^1.31.2
+    "@prisma/cli": ^2.20.1
     "@snaplet/copycat": ^0.3.0
     "@testing-library/jest-dom": ^5.16.5
     "@types/jsdom": ^21.1.3
